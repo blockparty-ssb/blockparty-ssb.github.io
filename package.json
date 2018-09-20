@@ -1,0 +1,30 @@
+{
+  "name": "blockpartySSB.github.io",
+  "version": "1.0.0",
+  "description": "Website For Blockparty-ssb Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blockpartySSB/blockpartySSB.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blockpartySSB/blockpartySSB.github.io/issues"
+  },
+  "homepage": "https://github.com/blockpartySSB/blockpartySSB.github.io#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.12"
+  },
+  "devDependencies": {
+    "ncp": "^2.0.0",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

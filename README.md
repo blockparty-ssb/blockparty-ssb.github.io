@@ -1,0 +1,3 @@
+## Welcome to Blockparty
+
+Blockparty is going to be a new Client for secure-scuttlebutt . Stay tuned...
