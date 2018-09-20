@@ -1,0 +1,14 @@
+{
+	"pages": [
+		{
+			"name": "index",
+			"title": "Welcome to Blockparty",
+			"body": "Hello World"
+		},
+		{
+			"name": "download",
+			"title": "Download Page",
+			"body": "Whoop Whoop Whooooooop"
+		}
+	]
+}
