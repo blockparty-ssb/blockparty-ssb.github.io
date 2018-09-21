@@ -2,13 +2,9 @@
 	"pages": [
 		{
 			"name": "index",
-			"title": "Welcome to Blockparty",
-			"body": "Hello World"
-		},
-		{
-			"name": "download",
-			"title": "Download Page",
-			"body": "Whoop Whoop Whooooooop"
+			"title": "Announcing Blockparty - an easy-to-use multi-network SSB client.",
+			"h2": "What is blockparty?",
+			"body": "Our goal: Make it easier for non-technical people to start their own SSB-based network/group. This is for people who are interested in trying out decentralised tech in order to communicate with their circle of friends but who'd be scared to type something into the command line in order to set up a pub, for example. People who don't want use Facebook or Whatsapp, but who are not aware that tech like SSB even exists. Also, people who are eager to try this out, who might have to convince their less eager friends to join. We want people to be able to create their own networks, as private as SSB allows and as closed as they choose. Stay tuned…"
 		}
 	]
 }
