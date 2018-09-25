@@ -2,22 +2,44 @@
  <html lang="de">
   <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="template/css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
-
-
   </head>
+
+
   <body>
-    <div class="page-wrap">
-      <div id="page-container">
+    <nav class="main-nav">
+      <a href="#">
+        <img src="src/res/logo.png"/>
+      </a>
+    </nav>
+
+  <div class="text-background">
+    <section>
       <h1>Announcing Blockparty - an easy-to-use multi-network SSB client.</h1>
       <h2>What is blockparty?</h2>
       <p>Our goal: Make it easier for non-technical people to start their own SSB-based network/group. This is for people who are interested in trying out decentralised tech in order to communicate with their circle of friends but who&#x27;d be scared to type something into the command line in order to set up a pub, for example. People who don&#x27;t want use Facebook or Whatsapp, but who are not aware that tech like SSB even exists. Also, people who are eager to try this out, who might have to convince their less eager friends to join. We want people to be able to create their own networks, as private as SSB allows and as closed as they choose. Stay tuned…</p>
-      </div>
-    </div>
+    </section>
+  </div>
+    
 
+  <script>
+    var nav = document.querySelector('.main-nav');
+
+    window.addEventListener('scroll', function(){
+      if(window.pageYOffset > 100) {
+        nav.classList += ' small'
+      } else {
+        nav.classList = 'main-nav';
+      }
+    })
+  </script>
     
   <script src="js/main.js"></script>
+
+
+ 
+
   </body>
 </html>
