@@ -3,17 +3,29 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link href="template/css/style.css" rel="stylesheet">
+  <link href="styles/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
   </head>
 
 
   <body>
-    <nav class="main-nav">
-      <a href="#">
-        <img src="src/res/logo.png"/>
-      </a>
-    </nav>
+      <nav id="main-nav fixed">
+          <span id="logo">
+              <a href="#">
+                  <img src="src/res/logo.png"/>
+                </a>
+          </span>
+          <label for="show-menu" class="show-menu">
+            <span class="fas fa-bars fa-2x"></span>
+          </label>
+          <input type="checkbox" id="show-menu" role="button">
+
+          <ul id="menu">
+              <li><a href="user-guide.html">Getting Started Guide</a></li>
+          </ul>
+      </nav>
 
   <div class="text-background">
     <section>
@@ -23,23 +35,7 @@
     </section>
   </div>
     
-
-  <script>
-    var nav = document.querySelector('.main-nav');
-
-    window.addEventListener('scroll', function(){
-      if(window.pageYOffset > 100) {
-        nav.classList += ' small'
-      } else {
-        nav.classList = 'main-nav';
-      }
-    })
-  </script>
-    
   <script src="js/main.js"></script>
-
-
- 
 
   </body>
 </html>
