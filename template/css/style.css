@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    src: url('Montserrat-Regular.ttf');
+    src: url('RobotoSlab-Regular.ttf');
+}
+
+html,body {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    font-family: 'Montserrat';
+    padding-top: 250px;
+    background-image: url(/src/res/frame.png);
+    background-repeat: no-repeat;
+    width: auto;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.main-nav {
+    max-width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: white;
+        transition: all 300ms ease-in-out;
+}
+
+.main-nav img {
+    height: 100%;
+    width: auto;
+}
+
+@media (min-width: 83em) {
+    .main-nav {
+        height: 300px;
+    }
+    .small {
+        height: 100px;
+    }
+}
+
+@media (max-width: 83em) and (min-width: 60em) {
+    .main-nav {
+        height: 200px;
+    }
+    .small {
+        height: 90px;
+    }
+}
+
+@media (max-width: 60em) and (min-width: 30em) {
+    .main-nav {
+        height: 120px;
+    }
+    .small {
+        height: 60px;
+    }
+}
+
+@media (max-width: 30em) {
+    .main-nav {
+        height: 60px;
+    }
+    .small {
+        height: 30px;
+    }
+}
+
+.text-background {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 100px auto;
+}
+
+section {
+    width: 80%;
+    margin: 100px auto;
+    z-index: 1;
+}
+
+h1 h2 {
+    font-family: 'Roboto Slab';
+}
+
