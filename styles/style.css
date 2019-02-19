@@ -149,10 +149,6 @@ input[type=checkbox] {
     display: none;
 }
 
-#logo:hover {
-    background-color: #F9B405;
-}
-
 #logo img {
     width: 100%;
 }
