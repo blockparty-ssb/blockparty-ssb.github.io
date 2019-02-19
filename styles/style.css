@@ -191,3 +191,10 @@ input[type=checkbox] {
     }
     
 }
+
+.img-networks {
+    width: 80%;
+    height: auto;
+    margin: 2em auto;
+    display: inherit;
+}
