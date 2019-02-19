@@ -29,12 +29,43 @@ html,body {
 
 body {
     font-family: 'Montserrat';
-    padding-top: 250px;
+    padding-top: 5em;
     background-image: url(../src/res/frame.png);
     background-repeat: no-repeat;
     width: auto;
     background-size: cover;
     background-attachment: fixed;
+    font-size: 1.1em;
+}
+
+h1 h2 {
+    font-family: 'Roboto Slab';
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+
+a {
+    color: #F9065F;
+    text-decoration: none;
+}
+
+
+.text-background {
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 100px auto;
+}
+
+section {
+    width: 80%;
+    margin: 100px auto;
+    z-index: 1;
 }
 
 /******************NAV********************/
@@ -109,25 +140,8 @@ span.fas {
 
 /******************NAV********************/
 
-
-.text-background {
-    width: 80%;
-    background-color: rgba(255, 255, 255, 0.7);
-    margin: 100px auto;
-}
-
-section {
-    width: 80%;
-    margin: 100px auto;
-    z-index: 1;
-}
-
-h1 h2 {
-    font-family: 'Roboto Slab';
-}
-
 #logo {
-    width: 170px;
+    width: 40%;
     float: left;
 }
 
@@ -136,7 +150,7 @@ input[type=checkbox] {
 }
 
 #logo:hover {
-    opacity: 0.5;
+    background-color: #F9B405;
 }
 
 #logo img {
@@ -144,11 +158,6 @@ input[type=checkbox] {
 }
 
 @media (max-width: 1100px) {
-    #logo {
-        max-width: 170px;
-        float: left;
-        margin: 10px 0 0 20px;
-    }
 
     span.fas {
         display: block;
