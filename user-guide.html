@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+ <html lang="de">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="src/res/favicon.ico">
+  <link href="styles/style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  
+  </head>
+
+
+  <body>
+      <nav id="main-nav fixed">
+          <span id="logo">
+              <a href="index.html">
+                  <img src="src/res/logo.png"/>
+                </a>
+          </span>
+          <label for="show-menu" class="show-menu">
+            <span class="fas fa-bars fa-2x"></span>
+          </label>
+          <input type="checkbox" id="show-menu" role="button">
+
+          <ul id="menu">
+              <li><a href="user-guide.html">Getting Started Guide</a></li>
+          </ul>
+      </nav>
+
+  <div class="text-background">
+    <section>
+        <h1>User Guide</h1>
+            <h2>How to setup a new community space?</h2>
+                <p>Setting up a new community space is not difficult, but might feel unusual, if you are new to dezentralized networks.</p> 
+                <p>What you need to do:</p>
+                    <ul>
+                        <li>Give your new network / community space / community a smashing name</li>
+                        <li>make an account on digital ocean.</li>
+                    </ul>
+            <h2>Why do I have to make an account on Digital Ocean?</h2>
+                <p>Digital Ocean is a hosting company and will host your <em>pub</em>. This pub is like an <em>all-the-time-online group member</em> which task is to replicate all of your and your friends messages - like a post office which delivers the letters to all the receivers. 
+                    Without this pub, exchanging messages would take a very long time and only happen if you and your friends are online at the same time.
+                    Each community space has its own pub. If you want to start another community space you need to setup another pub.</p>
+            <h2>Does it cost any money?</h2>
+                <p>Using blockparty is for free, as it is non-commercial and open source software. 
+                    Using Digital Ocean as host for your pub does cost depending on how much data storage you use. 
+                    For 1GB you will pay $5/month. For detailed information, please check the <a href="https://www.digitalocean.com/pricing/">pricing</a>.
+                    You will need to choose a payment method (credit card or paypal) and add your card data or your paypal account respectively.</p>
+            <h2>How to create and access my DigitalOcean token?</h2>
+                <p>Personal access tokens function like a combined name and password for API authentication. You will need the token al the time you create a new blockparty community. 
+                    When logged in into your Digital Ocean account, follow <a href="https://cloud.digitalocean.com/account/api/tokens/">this link</a> and generate a new token. Name it as you like. 
+                    After creating the token, copy and save it on your computer, as it will not be shown again. 
+                    If you loose your API key, you can always create a new one.</p>
+           <h2>How can I invite my friends to join my community?</h2> 
+                <p> After you successfully created your community you can invite your friends to join. 
+                    To invite people you need to create an invite token and share it with your friends. </p>
+            <h2>I got an invite! What to do with it?</h2>
+                <p>To join the community you are invited to you need to:</p>
+                    <ol>
+                        <li>Download the blockparty app from our website and open it</li>
+                        <li>Paste the invite code into the related field</li>
+                        <li>Confirm by clicking 'Join an existing blockparty community'</li>
+                        <li>In the sidebar you will see the icon of your community</li>
+                        <li>The synchronization of your communities messages will take some time. Go and have a delicious cup of coffee while waiting!</li>
+                        <li>After that you are ready to go! Give yourself a community name and write your first message!</li>
+                    </ol>
+            
+    </section>
+  </div>
+    
+  </body>
+</html>
